@@ -18,9 +18,6 @@ export class HomeComponent {
 
   constructor(public router: Router) { }
 
-  ngOnInit(): void {
-  }
-
   showFeedbackPage(): void {
     this.router.navigate(['feedback']);
   }
